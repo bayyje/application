@@ -55,33 +55,33 @@ def selectFaculty():
     elif(choice[0] and 156 <= ort <= 174):
         percentage = round((choice[1] * 10) / 100)
         total = choice[1] - percentage
-        print(f'Dear {name}{last_name}, we congratulate you! You have been admitted to the {choice[0]} program at Ala-Too International University. \n' +
+        print(f'Dear {name} {last_name}, we congratulate you! You have been admitted to the {choice[0]} program at Ala-Too International University. \n' +
         f'The cost of your tuition with a 10% discount will be {total}$ per year.')
 
     elif(choice[0] and 175 <= ort <= 199):
         percentage = round((choice[1] * 25) / 100)
         total = choice[1] - percentage
-        print(f'Dear {name}{last_name}, we congratulate you! You have been admitted to the {choice[0]} program at Ala-Too International University. \n' +
+        print(f'Dear {name} {last_name}, we congratulate you! You have been admitted to the {choice[0]} program at Ala-Too International University. \n' +
         f'The cost of your tuition with a 25% discount will be {total}$ per year.')
 
     elif(choice[0] and 200 <= ort <= 209):
         percentage = round((choice[1] * 50) / 100)
         total = choice[1] - percentage
-        print(f'Dear {name}{last_name}, we congratulate you! You have been admitted to the {choice[0]} program at Ala-Too International University. \n' +
+        print(f'Dear {name} {last_name}, we congratulate you! You have been admitted to the {choice[0]} program at Ala-Too International University. \n' +
         f'The cost of your tuition with a 50% discount will be {total}$ per year.')
 
     elif(choice[0] and 210 <= ort <= 218):
         percentage = round((choice[1] * 75) / 100)
         total = choice[1] - percentage
-        print(f'Dear {name}{last_name}, we congratulate you! You have been admitted to the {choice[0]} program at Ala-Too International University. \n' +
+        print(f'Dear {name} {last_name}, we congratulate you! You have been admitted to the {choice[0]} program at Ala-Too International University. \n' +
         f'The cost of your tuition with a 75% discount will be {total}$ per year.')
 
     elif(choice[0] and 219 <= ort <= 240):
-        print(f'Dear {name}{last_name}, we congratulate you! You have been admitted to the {choice[0]} program at Ala-Too International University. \n' +
+        print(f'Dear {name} {last_name}, we congratulate you! You have been admitted to the {choice[0]} program at Ala-Too International University. \n' +
         f'The cost of your tuition with a 100% discount will be 0$ per year.')
 
     else:
-        print(f'Dear {name}{last_name}, we congratulate you! You have been admitted to the {choice[0]} program at Ala-Too International University. \n' +
+        print(f'Dear {name} {last_name}, we congratulate you! You have been admitted to the {choice[0]} program at Ala-Too International University. \n' +
         f'The cost of your tuition will be {choice[1]}$ per year.')
 
 def check_enrollment():
