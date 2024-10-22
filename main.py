@@ -10,7 +10,7 @@ certificate = bool(int(input('Do you have certificate? : \n'
 
 ort = int(input('Enter your score on ORT: '))
 english_level = input('Enter your English language proficiency level: \n'
-                    '1 - Beginner\Elementary \n'
+                    '1 - Beginner / Elementary \n'
                     '2 - Pre-Intermediate \n'
                     '3 - Intermediate \n'
                     '4 - Upper-Intermediate \n'
@@ -49,7 +49,7 @@ def selectFaculty():
     if(choice[0] and 145 <= ort <= 155):
         percentage = round((choice[1] * 5) / 100)
         total = choice[1] - percentage
-        print(f'Dear {name}{last_name}, we congratulate you! You have been admitted to the {choice[0]} program at Ala-Too International University. \n'+
+        print(f'Dear {name} {last_name}, we congratulate you! You have been admitted to the {choice[0]} program at Ala-Too International University. \n'+
         f'The cost of your tuition with a 5% discount will be {total}$ per year.')
 
     elif(choice[0] and 156 <= ort <= 174):
